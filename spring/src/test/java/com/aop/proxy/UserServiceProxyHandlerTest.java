@@ -37,6 +37,7 @@ public class UserServiceProxyHandlerTest {
     public void test2() {
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("/spring-context.xml");
         UserService userService = applicationContext.getBean("userServiceImpl", UserServiceImpl.class);
+        System.out.println(userService);
         userService.login(new User());
         userService.registry(new User());
     }

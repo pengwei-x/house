@@ -8,4 +8,7 @@ spring studying
    2、 Cglib 动态代理
      Enhancer：通过继承⽗类创建的代理类
 
-----
+### spring-mybatis
+    1、DruidDataSource
+    2、SqlsessionFactoryBean
+    3、MapperScannerConfigurer
